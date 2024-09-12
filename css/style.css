@@ -133,6 +133,8 @@ body {
 /* destination start */
 #destination {
   padding: 147px 0 71px;
+  position: relative;
+  z-index: 5;
 }
 #destination .destination-box {
   display: flex;
@@ -187,6 +189,10 @@ body {
 }
 /* destination end */
 /* booking start */
+#booking{
+  position: relative;
+  z-index: 5;
+}
 #booking .booking-box {
   padding: 54px 64px 50px;
   border: 2px solid var(--brand);
@@ -257,11 +263,13 @@ body {
 #package {
   padding: 90px 0 180px;
   position: relative;
+  z-index: 2;
 }
 #package .shap {
   position: absolute;
   top: -70%;
   left: 18%;
+  z-index: -1;
 }
 
 #package .title {
@@ -441,6 +449,8 @@ body {
 /* most start */
 #most {
   padding: 111px 0;
+  position: relative;
+  z-index: 6;
 }
 #most .title {
   text-align: center;
@@ -502,7 +512,7 @@ body {
   background: url("../images/counterbg.png") no-repeat center;
   background-size: cover;
   position: relative;
-  z-index: 1;
+  z-index: 5;
 }
 #counter .pakageshap {
   position: absolute;
@@ -668,6 +678,8 @@ body {
 /* customer start */
 #customer {
   padding: 0 0 155px;
+  position: relative;
+  z-index: 5;
 }
 #customer .title {
   text-align: center;
