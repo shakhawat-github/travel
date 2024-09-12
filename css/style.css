@@ -256,7 +256,14 @@ body {
 /* package start */
 #package {
   padding: 90px 0 180px;
+  position: relative;
 }
+#package .shap {
+  position: absolute;
+  top: -70%;
+  left: 18%;
+}
+
 #package .title {
   text-align: center;
 }
@@ -289,7 +296,7 @@ body {
   border: 1px solid var(--brand);
   border-radius: 15px;
   position: relative;
-  transition: .4s;
+  transition: 0.4s;
 }
 #package .package-box .item h3 {
   color: var(--brand);
@@ -353,8 +360,8 @@ body {
   font-weight: 400;
   line-height: normal;
 }
-#package .package-box .item ul li svg path{
-  transition: .4s;
+#package .package-box .item ul li svg path {
+  transition: 0.4s;
 }
 #package .package-box .item:hover {
   border: 1px solid #ff8000;
@@ -372,3 +379,62 @@ body {
   fill: #ff8000;
 }
 /* package end */
+/* memories start */
+#memori {
+  background-color: var(--brand);
+  padding: 69px 0;
+  position: relative;
+}
+#memori .memori-box {
+  display: flex;
+  position: relative;
+  z-index: 1;
+}
+#memori .memori-box .shap{
+  position: absolute;
+  top: -5%;
+  left: 5%;
+  z-index: -1;
+}
+#memori .memori-box .image {
+  width: 50%;
+}
+#memori .memori-box .image img {
+  border-radius: 15px;
+  width: 508px;
+  height: 523px;
+}
+#memori .memori-box .txt {
+  width: 50%;
+  margin-top: 76px;
+}
+#memori .memori-box .txt span {
+  color: var(--white);
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+#memori .memori-box .txt h2 {
+  margin-top: 32px;
+}
+#memori .memori-box .txt h2 span {
+  color: var(--white);
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  display: block;
+}
+#memori .memori-box .txt p {
+  color: var(--white);
+  margin-top: 30px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 95%;
+  line-height: 30px;
+}
+/* memories end */
