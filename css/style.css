@@ -536,6 +536,8 @@ body {
 /* newslatter start */
 #newslatter {
   padding: 97px 0 129px;
+  position: relative;
+  z-index: 2;
 }
 #newslatter .newslatter-box {
   width: 100%;
@@ -631,11 +633,13 @@ body {
 #brand {
   padding: 0 0 120px;
   position: relative;
+  z-index: 1;
 }
 #brand .shap {
   position: absolute;
   top: -750px;
   left: 20%;
+  z-index: -1;
 }
 #brand .brand-box {
   display: flex;
